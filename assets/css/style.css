@@ -63,3 +63,40 @@ main {
     margin-bottom: 48px;
 }
 
+footer {
+    margin: auto;
+    font-size: 0.85rem;
+    padding: 2px;
+}
+
+footer * {
+    color: black;
+}
+
+footer a {
+    color: grey;
+}
+
+.footerdiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    justify-items: center;
+}
+
+.copyright {
+    margin-top: 96px;
+    color: grey;
+}
+
+.footerdiv h2 {
+    margin-bottom: 48px;
+}
+
+span {
+    font-style: italic;
+}
+
+img:hover {
+    opacity: 50%;
+}
