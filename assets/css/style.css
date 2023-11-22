@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'kala';
+    src: url(../fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'kala';
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.nameandprice {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.maxsize {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    display: grid;
+    width: 95%;
+    margin: auto;
+}
+
+.sixitems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 48px;
+}
+
